@@ -32,7 +32,10 @@ elif operation =="**":
 elif operation =="%":
     result = int(x) % int (y)
 
+elif operation == "*":
+    z = int(x) * int(y)
 
 #Result:    
+
 print(f"{x} {operation} {y} = {z}")
 print (result)
