@@ -35,6 +35,10 @@ elif operation =="%":
 elif operation == "*":
     z = int(x) * int(y)
 
+elif operation == "pre":
+    z = (int(x) / int(y)) * 100
+
 #Result:    
 
 print(f"{x} {operation} {y} = {z}")
+
