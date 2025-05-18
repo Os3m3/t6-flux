@@ -10,4 +10,6 @@ if operation == "+":
     z = int(x) + int(y)
 elif operation == "-":
     z = int(x) - int(y)
+elif operation == "*":
+    z = int(x) * int(y)
 print(f"{x} {operation} {y} = {z}")
