@@ -11,12 +11,28 @@ operation = ""
 #Input:
 
 x = int(input("Please Enter the 1st Number: "))
-y = int(input("Please Enter the 2st Number: "))
 operation = str(input("Please Enter the Desired Operation: "))
+y = int(input("Please Enter the 2st Number: "))
 
+result = 0
 
 #Proccess:
+if operation == "+":
+    z = int(x) + int(y)
+
+elif operation == "-":
+    z = int(x) - int(y)
+
+elif operation =="/":
+    result = int(x) / int (y)
+
+elif operation =="**":
+    result = int(x) ** int (y)
+
+elif operation =="%":
+    result = int(x) % int (y)
 
 
-
-#Result:
+#Result:    
+print(f"{x} {operation} {y} = {z}")
+print (result)
