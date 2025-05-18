@@ -1,3 +1,5 @@
+from math import sqrt
+
 team_name = "T6-Flux"
 import random
 
@@ -36,6 +38,9 @@ elif operation =="%":
 elif operation == "*":
     z = int(x) * int(y)
 
+elif operation == "sqrt":
+    z = sqrt(x)
+
 elif operation == "pre":
     z = (int(x) / int(y)) * 100
 
@@ -51,6 +56,12 @@ elif operation == "^":
 elif operation == "random":
      z = random.randrange(int(x), int(y))
 
+else:
+    print("[WARN] Operation is not supported")
+
+
+
 #Result:    
+
 
 print(f"{x} {operation} {y} = {z}")
