@@ -38,4 +38,3 @@ elif operation == "*":
 #Result:    
 
 print(f"{x} {operation} {y} = {z}")
-print (z)
