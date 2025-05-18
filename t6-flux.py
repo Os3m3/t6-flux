@@ -6,3 +6,6 @@ operation = ""
 x = int(input("Please Enter the 1st Number: "))
 y = int(input("Please Enter the 2st Number: "))
 operation = str(input("Please Enter the Desired Operation: "))
+if operation == "+":
+    z = int(x) + int(y)
+print(f"{x} {operation} {y} = {z}")
