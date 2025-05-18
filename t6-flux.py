@@ -1,3 +1,5 @@
+from math import sqrt
+
 team_name = "T6-Flux"
 
 
@@ -35,6 +37,12 @@ elif operation =="%":
 elif operation == "*":
     z = int(x) * int(y)
 
+elif operation == "sqrt":
+    z = sqrt(x)
+
+else:
+    print("[WARN] Operation is not supported")
+
 #Result:    
 
-print(f"{x} {operation} {y} = {z}")
+print(f"result = {z}")
