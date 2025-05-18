@@ -35,15 +35,9 @@ elif operation =="%":
 elif operation == "*":
     z = int(x) * int(y)
 
-<<<<<<< HEAD
 elif operation == "pre":
     z = (int(x) / int(y)) * 100
 
-#Result:    
-
-print(f"{x} {operation} {y} = {z}")
-
-=======
 elif operation == "|":
      z = int(x) | int(y)
 
@@ -53,7 +47,8 @@ elif operation == "&":
 elif operation == "^":
      z = int(x) ^ int(y)
 
+
 #Result:    
 
 print(f"{x} {operation} {y} = {z}")
->>>>>>> f746ddd39257182948d993df416d773e87924233
+
