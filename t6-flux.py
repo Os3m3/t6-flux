@@ -1,4 +1,5 @@
 team_name = "T6-Flux"
+import random
 
 
 #Decleration:
@@ -47,8 +48,9 @@ elif operation == "&":
 elif operation == "^":
      z = int(x) ^ int(y)
 
+elif operation == "random":
+     z = random.randrange(int(x), int(y))
 
 #Result:    
 
 print(f"{x} {operation} {y} = {z}")
-
